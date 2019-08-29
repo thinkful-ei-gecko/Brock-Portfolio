@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .project-IMG {
+    width: 80%;
+    height: 150px;
+    margin: 15px 0;
+  }
+
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+    border: 2px solid black;
+    border-radius: 3px;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  header {
+    padding-top: 12%;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
