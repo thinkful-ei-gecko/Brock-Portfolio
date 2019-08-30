@@ -1,0 +1,164 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manjari', sans-serif;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(34, 34, 34);
+}
+
+.project-IMG {
+    width: 80%;
+    height: auto;
+    margin: 15px 0;
+    border: 3px solid rgb(173, 157, 201);
+}
+
+.ui-icon-jquery {
+    width: 20px;
+    height: auto;
+}
+
+footer {
+    padding: 1% 0;
+    background-color: rgb(34, 34, 34);
+    border-bottom: 2px solid rgb(49, 26, 93);
+    border-bottom: 2px solid rgb(49, 26, 93);
+}
+
+.hire-Me {
+    border-bottom: 2px solid rgb(173, 157, 201);
+}
+
+.contact-Icon {
+    font-size: 50px;
+    color: rgb(87, 87, 87);
+    margin: 10px 20px;
+}
+
+.g-Icon {
+    color: rgb(160, 160, 160);
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: White;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2 {
+    color: White;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgb(75, 75, 75);
+    border-bottom: 2px solid rgb(49, 26, 93);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.nav-UL {
+    padding: 0;
+    margin: 5px auto;
+}
+
+.nav-Link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+a:hover {
+    border-bottom: 2px solid rgb(173, 157, 201);
+    border-radius: 2px;
+    padding: 0;
+}
+
+header {
+    padding-top: 25%;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(49, 26, 93);
+    background-image: url(/Images/Capasdfture.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(50%);
+    color: white;
+}
+
+.header-headline {
+    font-size: 30px;
+    text-align: left;
+    margin: auto 5%;
+    background-color: rgba(0,0,0, 0.4); 
+    border: 3px solid rgb(173, 157, 201);
+    padding: 10px;
+    width: auto;
+    border-radius: 3px;
+}
+
+.scroll-Down {
+    background-color: rgba(0,0,0, 0.4); 
+    border: 3px solid rgb(173, 157, 201);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+section {
+    min-height: 200px;
+    padding-top: 25px;
+    background-color: #363636;
+    border: 2px solid rgb(49, 26, 93);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color:rgb(190, 190, 190);
+}
+
+.project-Description {
+    padding: 0 25px;
+    border-bottom: 2px solid rgb(49, 26, 93);
+}
+
+.project-Container {
+    height: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+    section {
+        width: 40%;
+        margin: auto 3%;
+    }
+
+    .container-Main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-Container {
+        height: 750px;
+    }
+
+    header {
+        padding-top: 10%;
+    }
+    .header-headline {
+        margin: auto 15%;
+        padding: 10px;
+        width: 375px;
+    }
+}
