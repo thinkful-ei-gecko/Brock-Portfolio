@@ -119,6 +119,15 @@ header {
     border-radius: 3px;
 }
 
+.bio-About {
+    background-color: rgba(0,0,0, 0.4); 
+    border: 3px solid rgb(173, 157, 201);
+    padding: 25px;
+    border-radius: 3px;
+    margin: auto 5%;
+    margin-top: 50px;
+}
+
 section {
     min-height: 200px;
     padding-top: 25px;
